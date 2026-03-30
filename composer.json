@@ -1,0 +1,53 @@
+{
+    "name": "liontecnologia/averbporto",
+    "description": "Biblioteca PHP para integração com a API da Porto Seguro - AverbePorto. Automatize o envio de XML/ZIP (NF-e, CT-e, MDF-e, NFC-e) para averbação.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joabe Anderson da Silva",
+            "email": "joabe@liontecnologia.com.br",
+            "homepage": "https://liontecnologia.com.br",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "averbe-porto",
+        "porto-seguro",
+        "averbacao",
+        "nfe",
+        "cte",
+        "mdfe",
+        "xml",
+        "api",
+        "integracao",
+        "seguro"
+    ],
+    "homepage": "https://github.com/liontecnologia/averbporto",
+    "support": {
+        "issues": "https://github.com/liontecnologia/averbporto/issues",
+        "wiki": "https://github.com/liontecnologia/averbporto/wiki",
+        "source": "https://github.com/liontecnologia/averbporto"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^10.0",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AverbePorto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AverbePorto\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check": "phpcs src/ --standard=PSR12"
+    }
+}

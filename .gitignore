@@ -1,0 +1,44 @@
+# .gitignore
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Tests
+/coverage/
+.phpunit.result.cache
+
+# Cache
+/tmp/
+/cache/
+
+# Cookies/Sessions
+*.cookie
+php_sessions/
+
+# Dependencies
+node_modules/
+package-lock.json

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="AverbePorto">
+    <description>PHP Code Sniffer rules for AverbePorto</description>
+    
+    <rule ref="PSR12"/>
+    
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+</ruleset>
